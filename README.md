@@ -7,8 +7,8 @@ This FastAPI application is a sample implementation with integrated database mig
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
-cd <repository-folder>
+git clone https://github.com/Akachi-Anabanti/fastapi-hanko
+cd backend
 ```
 
 ### 2. Install Poetry
@@ -39,7 +39,7 @@ The application uses Hanko for authentication. Configure your Hanko API credenti
 ```python
 HANKO_API_URL=https://a8ff***m89f8s***904d7.io
 ```
-visit (Hanko Cloud)[https://www.cloud.hanko.io]
+visit [Hanko Cloud](https://www.cloud.hanko.io)
 
 ### 6. Run the Application
 
