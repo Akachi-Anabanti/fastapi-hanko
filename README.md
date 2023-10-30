@@ -1,4 +1,4 @@
-# FastAPI Application with Alembic, Hanko Auth, and Poetry
+# FastAPI Application with Postgresql and Hanko Authentication
 
 This FastAPI application is a sample implementation with integrated database migrations using Alembic, authentication via Hanko, and managed dependencies with Poetry. Below is a brief README to help you understand and manage this application.
 
@@ -39,7 +39,7 @@ The application uses Hanko for authentication. Configure your Hanko API credenti
 ```python
 HANKO_API_URL=https://a8ff***m89f8s***904d7.io
 ```
-visit [Hanko Cloud](https://www.cloud.hanko.io)
+visit [Hanko Cloud](https://www.cloud.hanko.io) to obtain your api url
 
 ### 6. Run the Application
 
@@ -90,7 +90,7 @@ poetry run alembic revision --autogenerate -m "Your migration message"
 # Apply pending migrations
 poetry run alembic upgrade head
 ```
-if added new models and schemas run
+if you added new models and schemas run
 
 ```bash
 poetry run alembic revision --autogenerate -m "revision message"
